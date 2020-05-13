@@ -1,0 +1,4 @@
+opencv_python==4.1.1.26
+easygui==0.98.1
+googletrans==2.4.0
+pytesseract==0.3.4

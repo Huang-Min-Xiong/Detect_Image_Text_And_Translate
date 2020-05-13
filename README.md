@@ -1,0 +1,2 @@
+# Detect_Image_Text_And_Translate
+ Detect_Image_Text_And_Translate

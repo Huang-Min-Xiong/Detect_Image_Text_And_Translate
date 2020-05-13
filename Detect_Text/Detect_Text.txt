@@ -1,0 +1,10 @@
+翻譯前:
+Learn Git and GitHub without any code!
+
+Using the Hello World guide, you'll start a branch, write comments, and open a pull request.
+
+翻譯後:
+了解Git和GitHub上沒有任何代碼！
+
+使用的Hello World指南，你會開始一個分支，寫評論，並打開一個pull請求。
+

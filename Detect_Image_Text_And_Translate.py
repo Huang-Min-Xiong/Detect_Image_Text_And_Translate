@@ -1,6 +1,6 @@
 import easygui
-from cv2 import cv2
 import pytesseract
+from cv2 import cv2
 from googletrans import Translator
 
 #tesseract.exe安裝路徑

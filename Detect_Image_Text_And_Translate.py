@@ -5,7 +5,7 @@ from googletrans import Translator
 
 #tesseract.exe安裝路徑
 pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
-#選擇img檔案路徑
+#選取img檔案路徑
 img_path = easygui.fileopenbox() 
 
 #偵測圖像文字且翻譯文字
@@ -23,21 +23,21 @@ def Detect_image_text_and_translate():
         print('已寫入文字檔!')
 
 
-#判斷是否已選擇Img路徑
+#判斷是否已取得Img檔案路徑
 if img_path == None:
     Open_img_path = False 
 else:
     Open_img_path = True
     
 
-#當選擇了Img路徑才執行功能    
+#當取得Img檔案路徑    
 if Open_img_path == True:
     Detect_image_text_and_translate()
 
-#持續判斷使用者是否要繼續執行
-while Open_img_path == False :
-    print('尚未選擇Img路徑!')
-    Input = input('若要繼續執行請輸入Y,不要則輸入N:\n')
+#持續判斷使用者是否繼續執行
+while Open_img_path == False:
+    print('尚未取得Img檔案路徑!')
+    Input = input('若要繼續執行請輸入Y,離開程式輸入N:\n')
 
     if Input == 'y' or Input == 'Y':
         img_path = easygui.fileopenbox() 

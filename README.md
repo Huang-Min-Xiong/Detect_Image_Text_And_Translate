@@ -19,10 +19,14 @@ Tesseract-OCR
 
 `pytesseract.pytesseract.tesseract_cmd =r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'`
 
+#### 透過easygui套件來實作功能
+- easygui.fileopenbox():獲取文件名的對話框
+
 #### 透過pytesseract套件來實作功能
-- 辨識圖像中的文字並取出
+- pytesseract.image_to_string():將圖像內容轉為文字
+
+#### 透過cv2套件來實作功能
+- cv2.imread():讀取圖像
 
 #### 透過Translator套件來實作功能
-- 將取出的文字翻譯成繁體字
-
-- 最後將翻譯前與翻譯後的文字寫入txt檔中
+- translator.translate(text,dest='zh-TW') #將文字轉為繁體
